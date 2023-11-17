@@ -1,1 +1,24 @@
 
+on:
+  push:
+    branches: 
+      - master
+
+
+
+
+jobs:
+  build: 
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 'Testing Githeb Action'
+        run: pwd
+
+      - name: 'Testing Printing'
+        run: echo Rana
+
+
+    
+
+
