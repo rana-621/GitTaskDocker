@@ -12,15 +12,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'Pritning folder contents'
-        run: ls
-
       - uses: actions/checkout@v3  
 
-      - name: 'After'
-        run: ls
-
-
-    
+      - name: "Login to Docker hub"
+        run: docker login --username ranaebrahim6 --password dckr_pat_BL0H_S-WjEOTtGpvaWZsLLLL2q4
 
 
